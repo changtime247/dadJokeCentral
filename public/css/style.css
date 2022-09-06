@@ -1,4 +1,3 @@
-
 body {
   margin: 0;
   background-color: rgb(196, 164, 132);
@@ -80,6 +79,18 @@ button:hover {
   background-color: rgb(151, 109, 68);
   color: white;
 }
+.smallButton{
+  font-size: 1em;
+  background-color: rgb(176, 132, 88);
+  color: white;
+  border-color: rgb(85, 65, 45);
+  border-width: 3px;
+  border-radius: 7px;
+}
+.smallButton:hover {
+  background-color: rgb(151, 109, 68);
+  color: white;
+}
 #title {
   color: rgb(246, 234, 58);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -132,6 +143,15 @@ button:hover {
   text-decoration-style: double;
   padding: 0px 0px 0px 10px;
 }
+#welcome{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 30px;
+}
+#inputBox{
+  margin-left: 30px;
+}
 
 
 
@@ -145,7 +165,6 @@ button:hover {
 .not {
   text-decoration: underline;
 }
-
 
 li{
   list-style: none;
@@ -171,7 +190,6 @@ li{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
   }
 
   .profileJokeForm {
